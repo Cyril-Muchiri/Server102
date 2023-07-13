@@ -16,7 +16,7 @@ private Socket socket=null;
     public void run(){
         try {
             PrintWriter writer=new PrintWriter(socket.getOutputStream(),true);
-            writer.println("Hello client...!");
+            writer.println("Hello client.....!");
             BufferedReader reader=new BufferedReader(new InputStreamReader(socket.getInputStream()));
 
             String clientInput= reader.readLine();
